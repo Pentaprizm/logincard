@@ -1,0 +1,122 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #3a405b;
+  background-color: #e9eff2;
+}
+*{
+  box-sizing: border-box;
+}
+.required-mark{
+  color: red;
+  vertical-align: baseline;
+}
+.card {
+  max-width: 570px;
+  margin: 20px auto;
+  padding: 40px 70px;
+  background-color: #fff;
+}
+.usercard__header,
+.form__header {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+.usercard__details {
+  text-align: center;
+}
+.usercard__item--fade {
+  color: #adb1bd;
+}
+.form{
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-group--col {
+  min-width: 50%;
+}
+.form-group--col:first-child {
+  padding-right: 15px;
+}
+.form-group--col:last-child {
+  padding-left: 15px;
+}
+.form-group__label {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #7a8196;
+  font-weight: 700;
+}
+.form-group__input {
+  height: 40px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #d5dce6;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.form-group__input_error {
+  border: 1px solid red;
+}
+.form-group__button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4be1ab;
+  border: none;
+  border-radius: 21px;
+  border-top-left-radius: 0;
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+}
+.form-group__button:hover {
+  background: #2eb484;
+}
+.button-group {
+  margin-top: 72px;
+}
+.message {
+  text-align: center;
+}
+.message__text--success {
+  color: #4be1ab;
+}
+.message__text--error{
+  color: red;
+}
+.v-select{
+  margin-top: 10px;
+}
+.v-select input[type=search], .v-select input[type=search]:focus{
+  width: 0 !important;
+}
+.v-select .dropdown-toggle {
+  border: 1px solid #d5dce6;
+  height: 40px;
+}
+.vdp-datepicker__calendar-button {
+  position: absolute;
+  right: 8px;
+  top: 30px;
+  margin-top: -8px;
+}
+.vdp-datepicker__calendar-icon:before {
+  content: '';
+  background-image: url('../assets/calendar-icon.png');
+  width: 16px;
+  height: 16px;
+  display: block;
+}
